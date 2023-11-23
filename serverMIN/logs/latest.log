@@ -1,0 +1,293 @@
+[19:56:40] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:56:42] [ServerMain/INFO]: Loaded 7 recipes
+[19:56:42] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[19:56:42] [Server thread/INFO]: Loading properties
+[19:56:42] [Server thread/INFO]: Default game type: SURVIVAL
+[19:56:42] [Server thread/INFO]: Generating keypair
+[19:56:42] [Server thread/INFO]: Starting Minecraft server on 26.191.16.7:25565
+[19:56:42] [Server thread/INFO]: Using default channel type
+[19:56:42] [Server thread/INFO]: This server is running CraftBukkit version 3945-Bukkit-0478e04 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT)
+[19:56:43] [Server thread/ERROR]: Could not load 'plugins\EconomyShopGUI-6.2.1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Exception initializing main class `me.gypopo.economyshopgui.EconomyShopGUI'
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:96) ~[bukkit-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:143) ~[bukkit-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:393) ~[bukkit-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301) ~[bukkit-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.loadPlugins(CraftServer.java:435) ~[craftbukkit-1.20.2-R0.1-SNAPSHOT.jar:3945-Bukkit-0478e04]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:213) ~[craftbukkit-1.20.2-R0.1-SNAPSHOT.jar:3945-Bukkit-0478e04]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:933) ~[craftbukkit-1.20.2-R0.1-SNAPSHOT.jar:3945-Bukkit-0478e04]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:290) ~[craftbukkit-1.20.2-R0.1-SNAPSHOT.jar:3945-Bukkit-0478e04]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:88) ~[bukkit-1.20.2-R0.1-SNAPSHOT.jar:?]
+	... 8 more
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/BaseComponent
+	at me.gypopo.economyshopgui.EconomyShopGUI.<init>(EconomyShopGUI.java:129) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:88) ~[bukkit-1.20.2-R0.1-SNAPSHOT.jar:?]
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.BaseComponent
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:160) ~[bukkit-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:112) ~[bukkit-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at me.gypopo.economyshopgui.EconomyShopGUI.<init>(EconomyShopGUI.java:129) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:88) ~[bukkit-1.20.2-R0.1-SNAPSHOT.jar:?]
+	... 8 more
+[19:56:43] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
+[19:56:44] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@747f78c0]
+[19:56:44] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.10.3
+[19:56:44] [Server thread/INFO]: [TreeFeller] Loading TreeFeller v1.22.2
+[19:56:44] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
+[19:56:44] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:56:44] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:56:44] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R2.PaperweightAdapter as the Bukkit adapter
+[19:56:45] [Server thread/INFO]: [WorldEdit] ====================================================
+[19:56:45] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[19:56:45] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[19:56:45] [Server thread/INFO]: [WorldEdit]   
+[19:56:45] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[19:56:45] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[19:56:45] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[19:56:45] [Server thread/INFO]: [WorldEdit]   
+[19:56:45] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[19:56:45] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[19:56:45] [Server thread/INFO]: [WorldEdit]   
+[19:56:45] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[19:56:45] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[19:56:45] [Server thread/INFO]: [WorldEdit]   
+[19:56:45] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[19:56:45] [Server thread/INFO]: [WorldEdit] ====================================================
+[19:56:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:56:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:56:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:56:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:56:45] [Server thread/INFO]: Preparing level "world"
+[19:56:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:56:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:56:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:56:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:56:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:56:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:56:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:56:50] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:56:50] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:56:51] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[19:56:51] [Worker-Main-9/INFO]: Preparing spawn area: 37%
+[19:56:52] [Server thread/INFO]: Time elapsed: 4803 ms
+[19:56:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:56:53] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[19:56:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[19:56:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[19:56:53] [Worker-Main-8/INFO]: Preparing spawn area: 15%
+[19:56:54] [Worker-Main-5/INFO]: Preparing spawn area: 60%
+[19:56:54] [Worker-Main-11/INFO]: Preparing spawn area: 69%
+[19:56:55] [Worker-Main-8/INFO]: Preparing spawn area: 76%
+[19:56:55] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[19:56:56] [Worker-Main-6/INFO]: Preparing spawn area: 87%
+[19:56:56] [Worker-Main-9/INFO]: Preparing spawn area: 95%
+[19:56:56] [Server thread/INFO]: Time elapsed: 4736 ms
+[19:56:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:56:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:56:57] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:56:57] [Worker-Main-6/INFO]: Preparing spawn area: 22%
+[19:56:58] [Worker-Main-8/INFO]: Preparing spawn area: 89%
+[19:56:58] [Server thread/INFO]: Time elapsed: 1588 ms
+[19:56:58] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.10.3
+[19:56:58] [Server thread/WARN]: [UberEnchant] Vault/Economy plugin not found, commands will work only for those with permissions!
+[19:56:58] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.22.2
+[19:56:58] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.22.2) by ThizThizzyDizzy
+[19:56:58] [Server thread/INFO]: [TreeFeller] Server version: 1_20_R2
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded global values:
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Height: 5
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Trunks: 1
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Grass: [PODZOL, DIRT, GRASS_BLOCK]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Overridables: [TALL_GRASS, FERN, LARGE_FERN, TALL_SEAGRASS, SEAGRASS, CAVE_AIR, WATER, GRASS, AIR]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {JUNGLE_WOOD=JUNGLE_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, OAK_WOOD=OAK_LOG, DARK_OAK_WOOD=DARK_OAK_LOG, ACACIA_WOOD=ACACIA_LOG, SPRUCE_WOOD=SPRUCE_LOG, BIRCH_WOOD=BIRCH_LOG, WARPED_HYPHAE=WARPED_STEM}
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Effects: []
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - With Sneak: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Cascade: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
+[19:56:58] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
+[19:56:58] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
+[19:56:58] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
+[19:56:58] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
+[19:56:58] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
+[19:56:58] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
+[19:56:58] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
+[19:56:58] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Sapling: [FLOWERING_AZALEA, AZALEA]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[19:56:58] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
+[19:56:58] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
+[19:56:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:56:58] [Server thread/INFO]: [UberEnchant] Found: 0 Registered UberEnchantments.
+[19:56:58] [Server thread/INFO]: [UberEnchant] Loaded: 0 UberEnchantments.
+[19:56:58] [Server thread/INFO]: Done (12.837s)! For help, type "help"
+[19:57:12] [Server thread/INFO]: R0mBa joined the game
+[19:57:12] [Server thread/INFO]: R0mBa[/26.191.16.7:57790] logged in with entity id 76 at ([world]0.7212626599079306, 51.0, -7.798410639776522)
